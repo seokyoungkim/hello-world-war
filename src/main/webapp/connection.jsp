@@ -31,10 +31,10 @@
 </FORM>
 </FONT>
 <%
-        String url = "jdbc:oracle:thin:@143.248.5.188:1561:KFTPDB";
+        String url = "jdbc:oracle:thin:@<ip>:<port>:<db name>";
         String table = request.getParameter("txtTableName");
-        String username = "kftp";
-        String password = "kstkftp";
+	String username = "<username>";
+	String password = "<password>";
 
 
         if ((table != null) && (!table.equals(""))) {
